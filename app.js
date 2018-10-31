@@ -22,4 +22,14 @@ function play(playerChoice) {
       results.innerText = "Player Win"
     }
   }
+  if (computerChoice == "Paper") {
+    if (playerChoice == "Scissors") {
+      results.innerText = "Player Win"
+    }
+  }
+  if (computerChoice == "Rock") {
+    if (playerChoice == "Rock") {
+      results.innerText = "Tie"
+    }
+  }
 }
